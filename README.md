@@ -1,1 +1,0 @@
-# daquioag-jonhmark-activities
