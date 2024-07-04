@@ -1,0 +1,86 @@
+.bb {
+
+    height: 700px;
+
+    width: 500px;
+
+    background-color: beige;
+
+    border-radius: 1vh;
+
+    flex-direction: column;
+
+    justify-content: center; /* Center vertically */
+
+    align-items: center; /* Center horizontally */
+
+}
+
+
+
+.digi {
+
+    background-color: grey;
+
+    height: 10vh;
+
+    width: 60vh;
+
+    font-size: 50px;
+
+    color: black;
+
+    text-align: end;
+
+    padding: 5px;
+
+}
+
+
+
+.bbh {
+
+    flex: 1;
+
+    border: 10px solid red;
+
+    padding: 30px;
+
+}
+
+
+
+.bbb {
+
+    flex: 6;
+
+    border: 10px solid red;
+
+    padding: 10px;
+
+    flex-direction: row;
+
+    display: flex;
+
+    flex-wrap: wrap;
+
+    gap: 1vh;
+
+}
+
+
+
+.bl {
+
+    text-align: center;
+
+    font-size: 50px;
+
+    color: black;
+
+    background-color: grey;
+
+    height: 15vh;
+
+    width: 15vh;
+
