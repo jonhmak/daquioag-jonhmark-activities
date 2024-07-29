@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="stylereg.css">
+    <title>Register</title>
+</head>
+<body>
+    <section>
+        <div class="form-box">
+            <div class="form-value">
+                <form id="loginForm" action="page.html" method="POST">
+                    <h2>Register</h2>
+                    <div class="inputbox">
+                        <input type="text" required id="username" name="username">
+                        <label for="username">Username</label>
+                    </div>
+                    <div class="inputbox">
+                        <input type="text" required id="name" name="name">
+                        <label for="name">Name</label>
+                    </div>
+                    <div class="inputbox">
+                        <select name="gender" id="gender">
+                            <option value="Male">Male</option>
+                            <option value="Female">Female</option>
+                            <option value="Other">Other</option>
+                        </select>
+                        <label for="gender"></label>
+                    </div>
+                    <div class="inputbox">
+                        <input type="text" required id="email" name="email">
+                        <label for="email">Email</label>
+                    </div>
+                    <div class="inputbox">
+                        <input type="password" id="pass" name="pass" required>
+                        <label for="pass">Password</label>
+                    </div>
+                    <div class="forget">
+                        <label for="">
+                            <input type="checkbox">Remember Me
+                            <span class="forget-password">
+                                <a href="#">Forget Password?</a>
+                            </span>
+                        </label>
+                    </div>
+                    <input type="submit" value="Register" class="button">
+                    <div class="register">
+                        <p>Already Registered? <a href="login.html">Click here</a></p>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

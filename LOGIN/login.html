@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>Login</title>
+</head>
+<body>
+    <section>
+        <div class="form-box">
+            <div class="form-value">
+            <form id="loginForm" method="POST">
+                <form action="page.html" method="post">
+                    <h2>Login</h2>
+                    <div class="inputbox">
+                        <ion-icon name="mail-outline"></ion-icon>
+                        <input type="email" required id="email" name="email">
+                        <label for="">Email</label>
+                    </div>
+                    <div class="inputbox">
+                        <ion-icon name="lock-closed-outline"></ion-icon>
+                        <input type="password" id="pass" name="pass" required>
+                        <label for="">Password</label>
+                    </div>
+                    <div class="forget">
+                        <label for="">
+                            <input type="checkbox">Remember Me
+                            <span class="forget-password">
+                                <a href="#">Forget Password?</a>
+                            </span>
+                        </label>
+                    </div>
+                    <input type="submit" value="Login" class="button">
+                    <div class="register">
+                        <p>Don't have an account? <a href="register.html">Register</a></p>
+                    </div>
+                </form>
+            </form>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
